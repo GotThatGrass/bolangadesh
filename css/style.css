@@ -1,6 +1,78 @@
-main section p {
-    max-width: 70ch;
-    line-height: 1.6;
-    margin-bottom: 1.5em;
-    text-align: justify;
+body {
+  font-family: "Lexend Deca", "Segoe UI", sans-serif;
+  background-color: #fafafa;
+  color: #222;
+  margin: 0;
+  padding: 0 2rem;
+  line-height: 1.6;
+}
+
+header {
+  background: #ffffff;
+  padding: 1.5rem 2rem;
+  border-bottom: 2px solid #eee;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.2rem;
+}
+
+header em {
+  display: block;
+  color: #666;
+  margin-bottom: 0.8rem;
+}
+
+nav, .nav-links {
+  margin-top: 0.8rem;
+}
+
+nav a, .nav-links a {
+  color: #004080;
+  text-decoration: none;
+  margin: 0 0.4rem;
+}
+
+nav a:hover, .nav-links a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+h2, h3, h4 {
+  color: #003366;
+  margin-top: 2rem;
+}
+
+table.phonology-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+table.phonology-table th, 
+table.phonology-table td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+table.phonology-table th {
+  background: #f0f4f8;
+  font-weight: bold;
+}
+
+.vowel-groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+ul, ol {
+  margin-left: 2rem;
 }

@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8"> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Bolankian</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
         <header>
-            <h1>Bolankian</h1>
-            <p>A brief introduction to the essentials of Bolankian</p>
+            <h1>The Bolankian Language</h1>
+            <em>&#9;A brief introduction to the essentials of Bolankian</em><br>
+            <a href="#introduction">Introduction</a><br>
+            <a href="#basics">The Basics</a><br>
+            <a href="bogram.html"><strong>Reference/Grammar</strong></a><br>
+            <a href="bodict.html"><strong>Lexicon</strong></a>
         </header>
         <main>
-            <section>
+            <section id="introduction">
                 <h2>Introduction</h2>
                 <p>
-                    <strong>Bolankian</strong>, known natively as <em>Bôulangüneşko</em>, is the dominant language of the island nation of 
+                    <strong>Bolankian</strong>, known natively as <em>Bôulangüneşko</em>, is the dominant language and lingua franca of the island nation of 
                     <strong>Bolangadesh</strong> (<em>Bôulangüneş</em>). The language was first recorded and extensively studied 
                     by a team of linguists from the <strong>Turkic World Exploration Federation</strong> in <strong>1978 CE</strong>, during an 
                     expedition across the remote southern waters of the Okyanus Continent.
                 </p>
                 <p>
                     <strong>Bolangadesh</strong> lies deep within the central expanse of the <strong>Okyanus Sea</strong>, surrounded by violent tides and 
-                    dense fog banks that have kept it hidden from contact for centuries. Due to this isolation, <strong>Bolankian</strong> bears almost 
+                    dense fog banks thsat have kept it hidden from contact for centuries. Due to this isolation, <strong>Bolankian</strong> bears almost 
                     no resemblance to the languages of neighboring continents. Its syntax and morphology are considered highly 
                     agglutinative, with words often formed by stacking multiple particles to refine meaning or emotional tone.
                 </p>
@@ -39,18 +43,17 @@
                     Today, Bolankian remains the official and cultural language of <strong>Bolangadesh</strong> and the <strong>Bolankian Islands</strong>.
                 </p>            
             </section>
-            <section>
+            <section id="alphabet">
                 <h2>Alphabet and Pronunciation</h2>
                 <p>
                     The Bolankian language doesn't have an indigenous writing system and was originally a purely spoken language.
-                    It consists of 48 sounds, including 19 core vowels and 29 consonants, though regional dialects may vary. When members of the TWEF first arrived at Bolangadesh, 
-                    they required a practical way to record the language for study.
+                    When members of the TWEF first arrived at Bolangadesh, they required a practical way to record the language for study.
                     They ultimately adopted the Turkish alphabet, both because it was familiar to them, and because Bolangadesh shared several phonetic similarities with Turkish.
                 </p>
 
                 <h3>Vowels</h3>
                 <p>
-                    Bolankian has 19 vowel sounds, represented with a mix of single letters, digraphs, and diacritics.
+                    Bolankian has 23 vowels + diphthongs.
                 </p>
 
                 <table>
@@ -59,129 +62,141 @@
                         <th>IPA</th>
                         <th>Example / notes</th>
                     </tr>
-                    
+
                     <!-- Regular vowels -->
                     <tr>
                         <td><strong>a</strong></td>
-                        <td>/a/ or /ə/</td>
-                        <td>as in "father", becomes /ə/ when unstressed</td>
+                        <td>[a/ə]</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td><strong>e</strong></td>
-                        <td>/e/</td>
+                        <td>[ɛ]</td>
                         <td>as in "bed"</td>
                     </tr>                    
                     <tr>
                         <td><strong>i</strong></td>
-                        <td>/i/</td>
+                        <td>[i]</td>
                         <td>as in "machine"</td>
                     </tr>
                     <tr>
                         <td><strong>o</strong></td>
-                        <td>/o/</td>
-                        <td>as in "more"</td>
+                        <td>[o̞]</td>
+                        <td>as in Spanish "todo</td>
                     </tr>       
                     <tr>
                         <td><strong>u</strong></td>
-                        <td>/u/</td>
+                        <td>[u]</td>
                         <td>as in "flute"</td>
                     </tr>
                     <tr>
                         <td><strong>ë</strong></td>
-                        <td>/ə/ or /ʌ/</td>
+                        <td>[ə/ʌ]</td>
+                        <td>as in "shut"</td>
+                    </tr>
+
+                    <!-- Aspirated vowels -->
+                    <tr>
+                        <td><strong>ah</strong></td>
+                        <td>[aʰ]</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>eh</strong></td>
+                        <td>[ɛʰ]</td>
+                        <td>as in "bed"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ih</strong></td>
+                        <td>[iʰ]</td>
+                        <td>as in "machine"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>oh</strong></td>
+                        <td>[o̞ʰ]</td>
+                        <td>as in Spanish "todo"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>uh</strong></td>
+                        <td>[uʰ]</td>
+                        <td>as in "flute"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ëh</strong></td>
+                        <td>[əʰ/ʌʰ]</td>
                         <td>as in "shut"</td>
                     </tr>
 
                     <!-- Close vowels --> 
                     <tr>
                         <td><strong>ö</strong></td>
-                        <td>/œ/</td>
-                        <td>open-mid front rounded vowel, like French "jeune"</td>
+                        <td>[ø̞/œ]</td>
+                        <td></td>
                     </tr>                                                     
                     <tr>
                         <td><strong>ü</strong></td>
-                        <td>/y/</td>
-                        <td>Close front rounded vowel, like French "tu"</td>
+                        <td>[y]</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td><strong>ı</strong></td>
-                        <td>/ɯ/</td>
-                        <td>close back unrounded vowel, like Korean "Gangneung"</td>
+                        <td>[ɨ]</td>
+                        <td></td>
                     </tr>
 
                     <!-- Long vowels -->
                     <tr>
                         <td><strong>â</strong></td>
-                        <td>/a:/ or /ɑ/</td>
-                        <td>as in "car"</td>
+                        <td>[a:/ä/ɑ]</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td><strong>ê</strong></td>
-                        <td>/e:/ or /eɪ/</td>
+                        <td>[ɛ:/eɪ]</td>
                         <td>as in "they"</td>
                     </tr>
                     <tr>
                         <td><strong>î</strong></td>
-                        <td>/i:/ or /ɪ/</td>
+                        <td>[i:/ɪ]</td>
                         <td>as in "sit"</td>
                     </tr>    
                     <tr>
                         <td><strong>ô</strong></td>
-                        <td>/o:/ or /oʊ/</td>
-                        <td>as in "more," as in "go"</td>
+                        <td>[o̞:/o/oʊ]</td>
+                        <td></td>
                     </tr>                                    
                     <tr>
                         <td><strong>û</strong></td>
-                        <td>/u:/ or /ʊ/</td>
-                        <td>as in "put"</td>
+                        <td>[u:/ʊ]</td>
+                        <td></td>
                     </tr>
 
                     <!-- Diphthongs + Multiletters -->
                     <tr>
                         <td><strong>é</strong></td>
-                        <td>/eɪ/</td>
+                        <td>[eɪ]</td>
                         <td>as in "say"</td>
-                    </tr>
-                    <tr>
-                        <td><strong>ou</strong></td>
-                        <td>/oʊ/</td>
-                        <td>as in "go"</td>
-                    </tr>
-                    <tr>
-                        <td><strong>au</strong></td>
-                        <td>/aʊ/</td>
-                        <td>as in "cow"</td>
-                    </tr>
-                    <tr>
-                        <td><strong>ai</strong></td>
-                        <td>/aɪ/</td>
-                        <td>as in "my"</td>
-                    </tr>
-                    <tr>
-                        <td><strong>oi</strong></td>
-                        <td>/ɔɪ/</td>
-                        <td>as in "boy"</td>
-                    </tr>
-                    <tr>
-                        <td><strong>ei</strong></td>
-                        <td>/eɪ/</td>
-                        <td>as in "say"</td>
-                    </tr>
-                    <tr>
-                        <td><strong>âu</strong></td>
-                        <td>/ɑʊ/</td>
-                        <td></td>
                     </tr>
                     <tr>
                         <td><strong>eu</strong></td>
-                        <td>/ʊ/</td>
-                        <td>as in "put"</td>
+                        <td>[ʊ/ɨ]/makes next consonant syllabic</td>
+                        <td>as in "put"/as in "butter"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>êi</strong></td>
+                        <td>[eɪ]</td>
+                        <td>as in "say"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ôu</strong></td>
+                        <td>[oʊ]</td>
+                        <td>as in "go"</td>
                     </tr>
                 </table>
 
                 <h3>Consonants</h3>
                 <p>
-                    Bolankian has 29 consonant sounds.
+                    Bolankian has 36 consonants + consonant combinations.
                 </p>
 
                 <table>
@@ -190,166 +205,289 @@
                         <th>IPA</th>
                         <th>Example / notes</th>
                     </tr>
-                    <!-- Stops / Plosives -->
-                    <tr>
-                        <td><strong>p</strong></td>
-                        <td>/p/</td>
-                        <td>as in "pat"</td>
-                    </tr>
-                    <tr>
-                        <td><strong>b</strong></td>
-                        <td>/b/</td>
-                        <td>as in "bat"</td>
-                    </tr>
-                    <tr>
-                        <td><strong>pm</strong></td>
-                        <td>/b͡m/</td>
-                        <td>nasal flip from b into m, similar to "tn"</td>
-                    </tr>
+                    <!-- Stops / Plosives / etc -->
                     <tr>
                         <td><strong>t</strong></td>
-                        <td>/t/</td>
+                        <td>[t]</td>
                         <td>as in "top"</td>
                     </tr>
                     <tr>
+                        <td><strong>t'</strong></td>
+                        <td>[t̪/θ]</td>
+                        <td></td>
+                    </tr>
+                    <tr>
                         <td><strong>th</strong></td>
-                        <td>/t̪/</td>
-                        <td>as in Spanish "tarde"</td>
+                        <td>[tʰ]</td>
+                        <td>as in "start"</td>
                     </tr>
                     <tr>
                         <td><strong>d</strong></td>
-                        <td>/d/</td>
+                        <td>[d]</td>
                         <td>as in "dog"</td>
                     </tr>
                     <tr>
-                        <td><strong>dh</strong></td>
-                        <td>/d̪/</td>
-                        <td>as in Spanish "donde"</td>
-                    </tr>
-                    <tr>
-                        <td><strong>tn</strong></td>
-                        <td>/d͡n/ ???</td>
-                        <td>as in "sudden" without the e</td>
+                        <td><strong>d'</strong></td>
+                        <td>[d̪/ð]</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td><strong>k</strong></td>
-                        <td>/k/</td>
-                        <td>as in "kite"</td>
-                    </tr>
-                    <tr>
-                        <td><strong>g</strong></td>
-                        <td>/g/</td>
-                        <td>as in "go"</td>
+                        <td>[k]</td>
+                        <td>as in "skid"</td>
                     </tr>
                     <tr>
                         <td><strong>kh</strong></td>
-                        <td>/χ/ or /x/</td>
+                        <td>[kʰ]</td>
+                        <td>as in "kit"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>k'</strong></td>
+                        <td>[χ/x]</td>
                         <td>as in French "rouge," as in "Bach"</td>
                     </tr>
                     <tr>
-                        <td><strong>gh</strong></td>
-                        <td>/ʁ/ or /ɣ/</td>
+                        <td><strong>g</strong></td>
+                        <td>[g]</td>
+                        <td>as in "go"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>g'</strong></td>
+                        <td>[ʁ/ɣ]</td>
                         <td>as in Spanish "lago"</td>
                     </tr>
-
-                    <!-- Nasals -->
                     <tr>
-                        <td><strong>m</strong></td>
-                        <td>/m/</td>
-                        <td>as in "man"</td>
+                        <td><strong>p</strong></td>
+                        <td>[p]</td>
+                        <td>as in "spit"</td>
                     </tr>
                     <tr>
-                        <td><strong>n</strong></td>
-                        <td>/n/</td>
-                        <td>as in "no"</td>
+                        <td><strong>ph</strong></td>
+                        <td>[pʰ]</td>
+                        <td>as in "pat"</td>
                     </tr>
                     <tr>
-                        <td><strong>ñ</strong></td>
-                        <td>/ɲ/</td>
-                        <td>as in Spanish "señor"</td>
+                        <td><strong>p'</strong></td>
+                        <td>[ɸ]</td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td><strong>ng</strong></td>
-                        <td>/ŋ/</td>
-                        <td>as in "sing"</td>
-                    </tr>
-
-                    <!-- Affricates -->
-                    <tr>
-                        <td><strong>ç</strong></td>
-                        <td>/tʃ/</td>
-                        <td>as in "chop"</td>
+                        <td><strong>b</strong></td>
+                        <td>[b]</td>
+                        <td>as in "bat"</td>
                     </tr>
                     <tr>
-                        <td><strong>c</strong></td>
-                        <td>/dʒ/</td>
-                        <td>as in "judge"</td>
+                        <td><strong>b'</strong></td>
+                        <td>[β]</td>
+                        <td></td>
                     </tr>
-
-                    <!-- Fricatives -->
                     <tr>
                         <td><strong>f</strong></td>
-                        <td>/f/</td>
+                        <td>[f]</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>fh</strong></td>
+                        <td>[fʰ]</td>
                         <td>as in "fun"</td>
                     </tr>
                     <tr>
                         <td><strong>v</strong></td>
-                        <td>/v/</td>
-                        <td>as in "van"</td>
+                        <td>[v]</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td><strong>s</strong></td>
-                        <td>/s/</td>
+                        <td>[s]</td>
                         <td>as in "see"</td>
                     </tr>
-                    <tr>    
+                    <tr>
                         <td><strong>z</strong></td>
-                        <td>/z/</td>
+                        <td>[z]</td>
                         <td>as in "zoo"</td>
                     </tr>
                     <tr>
+                        <td><strong>m</strong></td>
+                        <td>[m]</td>
+                        <td>as in "man"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>n</strong></td>
+                        <td>[n]</td>
+                        <td>as in "no"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>n'</strong></td>
+                        <td>[n̪]</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><strong>ñ</strong></td>
+                        <td>[ɲ]</td>
+                        <td>as in Spanish "señor"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ng</strong></td>
+                        <td>[ŋ]</td>
+                        <td>as in "sing"</td>
+                    </tr>
+                    <tr>
                         <td><strong>ş</strong></td>
-                        <td>/ʃ/</td>
-                        <td>as in "shut"</td>
+                        <td>[ʃ]</td>
+                        <td>as in "shoe"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ç</strong></td>
+                        <td>[tʃ]</td>
+                        <td>as in "chop"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ç'</strong></td>
+                        <td>[tsʰ/ts]</td>
+                        <td>as in "bats"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>c</strong></td>
+                        <td>[dʒ]</td>
+                        <td>as in "judge"</td>
+                    </tr>
+                    <tr>
+                        <td><strong>c'</strong></td>
+                        <td>[dzʰ/dz]</td>
+                        <td>as in "adds"</td>
                     </tr>
                     <tr>
                         <td><strong>j</strong></td>
-                        <td>/ʒ/</td>
+                        <td>[ʒ]</td>
                         <td>as in "measure"</td>
                     </tr>
                     <tr>
                         <td><strong>h</strong></td>
-                        <td>/h/</td>
+                        <td>[h]</td>
                         <td>as in "hat"</td>
                     </tr>
-
-                    <!-- Approximants / Glides -->
                     <tr>
                         <td><strong>ğ</strong></td>
-                        <td>/w/ or /y/</td>
-                        <td>turns into w when after back vowels, and turns into y when after front vowels, or separates diphthong vowels.</td>
+                        <td>[w/j]</td>
+                        <td>separates vowels (using w and y sounds)</td>
                     </tr>
                     <tr>
                         <td><strong>y</strong></td>
-                        <td>/j/</td>
+                        <td>[j]</td>
                         <td>as in "yes"</td>
                     </tr>
                     <tr>
                         <td><strong>r</strong></td>
-                        <td>/r/</td>
-                        <td>flapped, as in Spanish "pero"</td>
+                        <td>[ɾ]</td>
+                        <td>as in Spanish "pero"</td>
                     </tr>
                     <tr>
                         <td><strong>l</strong></td>
-                        <td>/l/</td>
+                        <td>[l]</td>
                         <td>as in "lamp"</td>
                     </tr>
                 </table>
+
+                <h3>Vowel Harmony</h3>
+                <p>
+                    Bolankian employs a system of vowel harmony, where vowels within a word harmonize to be either front or back vowels.
+                    This affects the choice of suffixes and inflections added to words.
+                </p>
+                <table>
+                    <tr>
+                        <th>Front Vowels</th>
+                        <td>e, i, ü, ê, î, é, êi, eh, ih</td>
+                    </tr>
+                    <tr>
+                        <th>Back Vowels</th>
+                        <td>a, o, u, ö, â, ô, û, ôu, ah, oh, uh,</td>
+                    </tr>
+                    <tr>
+                        <th>Neutral Vowels</th>
+                        <td>ı, ë, ëh, eu, e, eh</td>
+                    </tr>
+                </table>
+
+                <h4>Note:</h4>
+                <p>
+                    The letters <strong>q</strong>, <strong>w</strong>, and <strong>x</strong> are not used in native Bolankian words, but may appear in loanwords.
+                    Stress in Bolankian usually falls on the first syllable of a word, but there are exceptions based on word origin and structure.
+                    The letter ğ is silent when it appears at the beginning of a word.
+                    The letter h is silent when it appears at the end of a word.
+                    "Eu" is very tricky and changes per word. For example, the name "Mogeul" is pronounced [mogl̩] while the word "eu" (meaning "I/me") is pronounced [ʊ]. It can also be pronounced [ɨ] in some words. The best way to learn it is through practice and exposure.
+                </p>
             </section>
-            <section>
+            <section id="basics">
                 <h2>The Basics</h2>
                 <section>
                     <h3>Sentence Order</h3>
+                    <p>
+                        Bolankian does not follow a strict sentence order because of its agglutinative system having case markers, but the most common and preferred order is Subject-Object-Verb (SOV).
+                        The one rule in Bolankian sentence structure is that the tense/aspect/mood marker always comes at the end of the sentence.
+                    </p>
+
+                    <table>
+                        <tr>
+                            <th>Surface Form</th>
+                            <td>LoĞavdujanage doşkalgomûr umñak.</td>
+                        </tr>
+                        <tr>
+                            <th>Segmented Form</th>
+                            <td>Lo-Ğav-du-janage do-şkal-go-mûr <em>(stem: şikal)</em> umñak.</td>
+                        </tr>
+                        <tr>
+                            <th>Gloss</th>
+                            <td>ART.DEF-DIM-NEG-man[SG] NEG-existence-DENOM-here IMP.PST[IND] <br>
+                            <em>The-DIM-NEG-man[SG] NEG-existence-DENOM-here IMP.PST[IND]</em></td>
+                        </tr>
+                        <tr>
+                            <th>Translation</th>
+                            <td>The boy is not here.</td>
+                        </tr>
+                    </table>
+                </section>
+                <section>
+                    <h3>Case Markers</h3>
+                    <p>
+                        Like I've said before, Bolankian is a highly agglutinative language. One of the most important aspects of this is the use of case markers.
+                        Case markers are suffixes that are added to the end of nouns to indicate their grammatical role in a sentence.
+                    </p>
+                    <p>The most common cases and case markers in Bolankian are:</p>
+                    <ol>
+                        <li>Nominative (subject): no marker</li>
+                        <li>Accusative (direct object): -leut / -eut</li>
+                        <li>Dative (indirect object): -on / -en / -ğon / -ğen / -n</li>
+                        <li>Genitive (possession): -nın / -onan / -nin / -ünin</li>
+                        <li>Locative (location): -da / -de / -şa / -şe / -ça / -çe</li>
+                        <li>Ablative (movement away from): -dan / -den / -şan / -şen / -çan / -çen</li>
+                        <li>Instrumental (means by which action is performed): -le / -e / -yla / -ye / -la / -a</li>
+                    </ol>
+                </section>
+                <section>
+                    <h3>Agreement</h3>
+                    <p>
+                        In Bolankian, verbs must agree with their subjects in both number and person. This is achieved through the use of verb endings that correspond to the subject's characteristics.
+                        Agreement also depends on negation. If the subject is negated (such as "no one" or "nothing"), the verb also has to be negated. Verbs and their subjects also should have the same vowel harmony. Adjectives do not need to agree with the nouns they modify.
+                    </p>
+                    <table>
+                        <tr>
+                            <th>Surface Form</th>
+                            <td>Lojanage LoJandet'eleut kidevye bekhaçoleut</td> <!--be- verbs signify to do something to someone. bekhacholut -->
+                        </tr>
+                        <tr>
+                            <th>Segmented Form</th>
+                            <td>Lo-janage Lo-jandet'e-leut kidev-ye be-khaço-leut</td>
+                        </tr>
+                        <tr>
+                            <th>Gloss</th>
+                            <td>ART.DEF-man[SG] ART.DEF-woman[SG]-ACC beating.stick-INS make-injury- <br>
+                            <em>The-DIM-NEG-man[SG] NEG-existence-DENOM-here IMP.PST[IND]</em></td>
+                        </tr>
+                        <tr>
+                            <th>Translation</th>
+                            <td>The boy is not here.</td>
+                        </tr>
+                    </table>
                 </section>
             </section>
         </main>
